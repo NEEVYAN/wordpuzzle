@@ -1,0 +1,6 @@
+<resources>
+    <color name="bg_top">#2B2D5B</color>
+    <color name="bg_bottom">#5B3F8C</color>
+    <color name="accent">#FF8A3D</color>
+    <color name="white">#FFFFFF</color>
+</resources>

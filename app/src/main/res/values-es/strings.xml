@@ -1,0 +1,50 @@
+<resources>
+    <string name="tagline">Conecta las letras</string>
+    <string name="play">JUGAR</string>
+    <string name="select_level">Elige un nivel</string>
+    <string name="paused">En pausa</string>
+    <string name="resume">Continuar</string>
+    <string name="restart">Reiniciar</string>
+    <string name="levels">Niveles</string>
+    <string name="home">Inicio</string>
+    <string name="settings">Ajustes</string>
+    <string name="shuffle">MEZCLAR</string>
+    <string name="level_n">Nivel %1$d</string>
+    <string name="level_complete">¡Nivel %1$d completado!</string>
+    <string name="next_level_starting">El siguiente nivel empieza…</string>
+    <string name="all_done">¡Has completado todos los niveles!</string>
+    <string name="reward">+%1$d monedas</string>
+    <string name="bonus_word">BONUS  %1$s</string>
+    <string name="already_found">%1$s  (ya encontrada)</string>
+    <string name="audio">Audio</string>
+    <string name="music">Música</string>
+    <string name="sound_effects">Efectos de sonido</string>
+    <string name="language">Idioma</string>
+    <string name="support">Soporte</string>
+    <string name="faq">Preguntas frecuentes</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="terms">Términos del servicio</string>
+    <string name="close">Cerrar</string>
+    <string name="version">Versión %1$s</string>
+    <string name="choose_language">Elige el idioma</string>
+    <string-array name="faq_questions">
+        <item>¿Cómo se juega?</item>
+        <item>¿Qué son las palabras bonus?</item>
+        <item>¿Cómo gano monedas?</item>
+        <item>¿Qué hace Mezclar?</item>
+        <item>¿Perderé mi progreso?</item>
+        <item>¿Cómo cambio el idioma o desactivo la música?</item>
+        <item>Algo no funciona.</item>
+    </string-array>
+    <string-array name="faq_answers">
+        <item>Desliza el dedo por las letras de la rueda sin levantarlo para formar una palabra. Suéltalo para enviarla. Rellena todas las casillas de la cuadrícula para terminar el nivel.</item>
+        <item>Las palabras válidas que no están en la cuadrícula son palabras bonus. Se suman al contador ★ de la parte superior.</item>
+        <item>Recibes 500 monedas cada vez que completas un nivel.</item>
+        <item>Reorganiza las letras de la rueda para que veas palabras nuevas. Nunca cambia la solución.</item>
+        <item>No. Tu progreso, tus monedas y tus ajustes se guardan automáticamente en tu dispositivo. Pausar, girar la pantalla o cerrar la app no hace que pierdas nada.</item>
+        <item>Abre Ajustes desde la pantalla de inicio o desde el menú de pausa.</item>
+        <item>Escribe a support@wordpuzzle.example y describe el problema.</item>
+    </string-array>
+    <string name="privacy_text">Última actualización: noviembre de 2026\n\nWord Puzzle respeta tu privacidad.\n\n1. Información que recopilamos\nLa app no recopila, transmite ni vende información personal. No necesita cuenta y no solicita el permiso de Internet.\n\n2. Datos guardados en tu dispositivo\nTu progreso, tus monedas, las palabras encontradas y los ajustes (música, sonido, idioma) se guardan solo en tu dispositivo. Al desinstalar la app o borrar sus datos, se eliminan.\n\n3. Terceros\nLa app no contiene anuncios, analíticas ni herramientas de seguimiento de terceros.\n\n4. Menores\nLa app no recopila datos personales y es apta para todas las edades.\n\n5. Cambios\nSi esta política cambia, la versión actualizada se mostrará aquí, en la app.\n\n6. Contacto\nsupport@wordpuzzle.example</string>
+    <string name="terms_text">Última actualización: noviembre de 2026\n\n1. Aceptación\nAl usar Word Puzzle aceptas estos términos.\n\n2. Licencia\nRecibes una licencia limitada, no exclusiva e intransferible para usar la app como entretenimiento personal y no comercial.\n\n3. Monedas virtuales\nLas monedas son artículos virtuales sin valor monetario real. No se pueden canjear por dinero ni transferir, y pueden modificarse o reiniciarse al actualizar la app.\n\n4. Uso aceptable\nNo puedes copiar, modificar, aplicar ingeniería inversa ni redistribuir la app, salvo donde la ley lo permita.\n\n5. Exención de responsabilidad\nLa app se ofrece «tal cual», sin garantías de ningún tipo. En la medida permitida por la ley, no somos responsables de ninguna pérdida derivada de su uso.\n\n6. Cambios\nPodemos actualizar estos términos. Seguir usando la app implica que aceptas los términos actualizados.\n\n7. Contacto\nsupport@wordpuzzle.example</string>
+</resources>

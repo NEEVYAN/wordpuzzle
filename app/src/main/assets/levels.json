@@ -1,0 +1,14 @@
+{"levels":[
+{"letters":"CAT","words":["CAT","ACT"],"bonus":[]},
+{"letters":"TEA","words":["TEA","EAT","ATE"],"bonus":["ETA"]},
+{"letters":"STAR","words":["STAR","RATS","ARTS","TSAR","SAT","RAT","ART","TAR"],"bonus":["TARS"]},
+{"letters":"TEAM","words":["TEAM","MEAT","MATE","TAME","MAT","EAT","TEA","ATE","MET"],"bonus":["ETA","TAM"]},
+{"letters":"PLANT","words":["PLANT","PLAN","PANT","ANT","PAN","NAP","LAP","PAL"],"bonus":["TAP","ALP"]},
+{"letters":"BREAD","words":["BREAD","BEAR","BARE","READ","DARE","DEAR","BAD","BED","RED","EAR"],"bonus":["ERA","BAR"]},
+{"letters":"STONE","words":["STONE","NOTES","TONES","NOSE","TONE","NOTE","SON","TEN","NET","SET","TON"],"bonus":["EON","TOE"]},
+{"letters":"HEART","words":["HEART","EARTH","HATE","HEAR","RATE","HAT","ART","THE","HER"],"bonus":["TEAR","TAR"]},
+{"letters":"SMILE","words":["SMILE","SLIME","MILES","MILE","LIME","SLIM","ISLE","LIES"],"bonus":["ELM","SEMI"]},
+{"letters":"GRAPE","words":["GRAPE","PAGE","PEAR","RAGE","GEAR","AGE","APE","GAP","RAP"],"bonus":["PARE","GAPE"]},
+{"letters":"SHORE","words":["SHORE","HORSE","HOSE","HERO","HERS","ORE","ROE","HER","SHE","HOE"],"bonus":["ROSE","SORE"]},
+{"letters":"CLOUD","words":["CLOUD","COULD","LOUD","CLOD","COLD","OLD","CUD","COD"],"bonus":["DUO"]}
+]}

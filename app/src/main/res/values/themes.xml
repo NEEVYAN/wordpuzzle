@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Word" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="android:statusBarColor">@color/bg_top</item>
+        <item name="android:navigationBarColor">@color/bg_bottom</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+</resources>

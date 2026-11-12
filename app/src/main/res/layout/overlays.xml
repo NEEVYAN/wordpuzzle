@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/pauseOverlay" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#B3101030" android:clickable="true" android:focusable="true" android:visibility="gone">
+        <LinearLayout android:id="@+id/pauseCard" android:layout_width="280dp" android:layout_height="wrap_content"
+            android:layout_gravity="center" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="24dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center"
+                android:text="@string/paused" android:textColor="@color/white" android:textSize="26sp" android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnResume" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:background="@drawable/bg_button" android:text="@string/resume" android:textColor="@color/white" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnRestart" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:background="@drawable/bg_button_secondary" android:text="@string/restart" android:textColor="@color/white" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnLevels" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:background="@drawable/bg_button_secondary" android:text="@string/levels" android:textColor="@color/white" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnHome" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:background="@drawable/bg_button_secondary" android:text="@string/home" android:textColor="@color/white" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnSettings" android:text="@string/settings" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:background="@drawable/bg_button_secondary" android:textColor="@color/white"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/completeOverlay" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#8C101030" android:clickable="true" android:focusable="true" android:visibility="gone">
+        <LinearLayout android:id="@+id/completeCard" android:layout_width="280dp" android:layout_height="wrap_content"
+            android:layout_gravity="center" android:background="@drawable/bg_card" android:orientation="vertical" android:padding="24dp">
+            <TextView android:id="@+id/completeTitle" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:gravity="center" android:textColor="#FFFFC107" android:textSize="26sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/completeReward" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:gravity="center" android:textColor="#FFFFC107" android:textSize="22sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/completeSub" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:gravity="center" android:textColor="@color/white" android:textSize="16sp"/>
+            <androidx.appcompat.widget.AppCompatButton android:id="@+id/btnCompleteLevels" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:background="@drawable/bg_button" android:text="@string/levels" android:textColor="@color/white" android:visibility="gone"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

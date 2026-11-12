@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/bg_card" android:orientation="vertical" android:padding="22dp">
+    <TextView android:id="@+id/dlgTitle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:textColor="@color/white" android:textSize="22sp" android:textStyle="bold"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:layout_marginTop="14dp" android:layout_marginBottom="14dp">
+        <LinearLayout android:id="@+id/dlgContent" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:id="@+id/dlgBody" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dp" android:textColor="#E6FFFFFF" android:textSize="15sp"/>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/dlgClose" android:layout_width="match_parent" android:layout_height="48dp"
+        android:background="@drawable/bg_button" android:text="@string/close" android:textColor="@color/white"/>
+</LinearLayout>
